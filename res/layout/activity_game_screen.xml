@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/LinearLayout01" 
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent" 
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/gamemode">
+    
+        <LinearLayout
+            android:id="@+id/starLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/star1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star_outline_game"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/star2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star_outline_game"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/star3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star_outline_game"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/star4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star_outline_game"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/star5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star_outline_game"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        
+        
+
+        <RelativeLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_above="@+id/starLayout"
+            android:layout_marginBottom="3dp">
+
+            <com.example.buttonanimation.MyButton
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/button2"
+                android:background="@drawable/button_game_unpressed"
+                android:onClick="button1Click"
+                android:padding="0dp"
+                android:textSize="18sp" />
+            
+
+            <com.example.buttonanimation.MyButton
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+                android:background="@drawable/button_game_unpressed"
+                android:onClick="button2Click"
+                android:textSize="18sp" />
+
+            <com.example.buttonanimation.MyButton
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/button2"
+                android:background="@drawable/button_game_unpressed"
+                android:onClick="button3Click"
+                android:textSize="18sp" />
+            
+        </RelativeLayout>
+
+        <ImageView
+    	    android:id="@+id/builder_clock_face"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    	    android:contentDescription="@string/hello_world"
+    	    android:layout_centerHorizontal="true"
+			android:layout_above="@+id/buttonLayout"
+    	    android:src="@drawable/no_number_clock_face" />
+
+    	<ImageView
+    	    android:id="@+id/clock_size"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:contentDescription="@string/hello_world"
+    	    android:layout_centerHorizontal="true"
+    	    android:layout_centerVertical="true"
+    	    android:src="@drawable/clock_size" />
+
+    	<ImageView
+    	    android:id="@+id/icon_size"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:contentDescription="@string/hello_world"
+    	    android:layout_centerHorizontal="true"
+    	    android:layout_centerVertical="true"
+    	    android:src="@drawable/icon_size" />
+    	
+    	<TextView
+    	    android:id="@+id/infoText"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="15dp"
+    	    android:textAppearance="?android:attr/textAppearanceLarge"
+    	    android:visibility="invisible" />
+    	
+	    <com.example.lunchtime.BuilderScrollView
+	        android:id="@+id/numberScrollView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+			android:layout_above="@+id/builder_clock_face"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true" >
+	
+	        <LinearLayout
+	            android:id="@+id/numberLinearLayout"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	        </LinearLayout>
+	    </com.example.lunchtime.BuilderScrollView >
+        
+    
+    <ImageView
+        android:id="@+id/game_clock_face"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/wolf_clock_face" />
+    
+    
+    <ImageView
+        android:id="@+id/game_minute_arm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:contentDescription="@string/hello_world"
+        android:src="@drawable/wolf_arm_minute" />
+
+    <ImageView
+        android:id="@+id/game_hour_arm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/game_minute_arm"
+        android:layout_alignTop="@+id/game_minute_arm"
+        android:layout_marginTop="35dp"
+        android:contentDescription="@string/hello_world"
+        android:src="@drawable/wolf_arm_hour" />
+    <TextView
+        android:id="@+id/clockQuestion"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+		android:layout_above="@+id/buttonLayout"
+    	android:gravity="center"
+		android:visibility="invisible"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        
+        android:id="@+id/question_feedback"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+    	android:gravity="left"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+		android:visibility="invisible"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+ </RelativeLayout>

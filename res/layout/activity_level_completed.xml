@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_levelcompleted"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical" >
+
+		<ImageButton
+		        android:id="@+id/rewardsButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:padding = "2dip"
+		        android:layout_marginLeft="16dp"
+		        android:onClick="goToRewards"
+		        android:background="@drawable/button_lvlcom_play" />
+
+		<ImageButton
+		        android:id="@+id/keepPlayingButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:padding = "2dip"
+		        android:layout_marginLeft="16dp"
+		        android:onClick="returnToGame"
+		        android:background="@drawable/button_lvlcom_keep" />
+		
+		<ImageButton
+		        android:id="@+id/quitButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:padding = "2dip"
+		        android:layout_marginLeft="16dp"
+		        android:onClick="quitToMainScreen"
+		        android:background="@drawable/button_lvlcomp_break" />
+											  
+		
+    </LinearLayout>
+
+    <com.example.buttonanimation.MyTextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/level_completed_name"
+        android:text="     You&apos;ve earned new ingredients! "
+        android:textSize="18sp" />
+
+    <com.example.buttonanimation.MyTextView
+        android:id="@+id/level_completed_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="TextView" />
+
+    <com.example.buttonanimation.MyTextViewFranklin
+        android:id="@+id/level_completed_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/level_completed_level"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="text"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3" >
+
+        <ImageView
+            android:id="@+id/item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/item3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

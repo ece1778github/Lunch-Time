@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/introduction" 
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent" 
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/mainscreen">
+    
+     <!-- 
+		Zoomed In versions
+         -->
+
+    <ImageButton
+        android:id="@+id/turotialbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_main_practice"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/tutorial_button"
+        android:onClick="startTutorial" />
+
+
+    <ImageButton
+        android:id="@+id/buttonmainpractice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonmainplay"
+        android:layout_marginLeft="29dp"
+        android:background="@drawable/button_main_practice"
+        android:onClick="goToPractice" />
+
+    <ImageButton
+        android:id="@+id/buttonmainrewards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="41dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/button_main_rewards"
+        android:onClick="goToKitchen" />
+
+    <ImageButton
+        android:id="@+id/buttonmainplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonmainrewards"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_main_play"
+        android:onClick="startGameMode" />
+    
+    <ImageView
+        android:id="@+id/expandedimageplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:contentDescription="mainbuttonplay_zoomin" />
+    
+    <ImageView
+        android:id="@+id/expandedimagepractice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:contentDescription="practicebutton_zoomin" />
+
+
+    <ImageView
+        android:id="@+id/expandedimagerewards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="rewardsbutton_zoomin"
+        android:visibility="invisible" />
+    
+ </RelativeLayout>

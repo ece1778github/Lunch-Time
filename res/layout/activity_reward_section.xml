@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/reward_view"
+    android:background="@drawable/gamemode"
+    tools:context=".RewardSectionActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/hello_world"
+        android:visibility="invisible" />
+    
+    <ImageView
+        android:id="@+id/wolf_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+	    android:src="@drawable/wolf_head_temp"
+	    android:contentDescription="@string/hello_world"
+	    android:visibility="invisible" />
+    
+    <ImageView
+        android:id="@+id/plateImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+	    android:src="@drawable/plate"
+	    android:contentDescription="@string/hello_world"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+    
+    <TextView
+        android:id="@+id/plateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/top_bread"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/hello_world"
+        android:scaleType="matrix"
+        android:src="@drawable/bread_plate"
+	    android:visibility="invisible" />
+
+
+    <com.example.lunchtime.RewardScrollView 
+        android:id="@+id/rewardItemScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <LinearLayout
+            android:id="@+id/rewardItemLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </com.example.lunchtime.RewardScrollView >
+
+    <ImageView
+        android:id="@+id/expanded_image_play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:contentDescription="mainbuttonplay_zoomin" />
+
+    <Button
+        android:id="@+id/readybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="43dp"
+        android:layout_toRightOf="@+id/plateText"
+        android:background="@drawable/button_ready"
+        android:onClick="switchToFeeding"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/dialogbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/dialogbox"
+        android:visibility="invisible" />
+
+</RelativeLayout>

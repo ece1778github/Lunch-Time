@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/experiencesample"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/happy"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/button_happy" />
+
+    <ImageButton
+        android:id="@+id/bored"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignTop="@+id/happy"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_bored" />
+
+    <ImageButton
+        android:id="@+id/sad"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/bored"
+        android:layout_marginRight="41dp"
+        android:background="@drawable/button_sad" />
+
+</RelativeLayout>

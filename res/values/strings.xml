@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LunchTime</string>
+    <string name="action_settings">Administrator Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_reward_section">RewardSectionActivity</string>
+    <string name="title_activity_practice_mode">PracticeModeActivity</string>
+    <string name="title_activity_admin_settings">AdminSettingsActivity</string>
+    <string name="title_activity_user_management">UserManagementActivity</string>
+    <string name="title_activity_user_data">UserDataActivity</string>
+    <string name="title_activity_user_time">UserTimeActivity</string>
+    <string name="title_activity_user_survey">UserSurveyActivity</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.lunchtime"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.example.buttonanimation.Init"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.lunchtime.MainScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.lunchtime.GameMode" >
+        </activity>
+        <activity android:name="com.example.lunchtime.Kitchen" >
+        </activity>
+        <activity android:name="com.example.lunchtime.AdminScreen" >
+        </activity>
+        <activity
+            android:name="com.example.lunchtime.RewardSectionActivity"
+            android:label="@string/title_activity_reward_section" >
+        </activity>
+        <activity
+            android:name="com.example.lunchtime.PracticeModeActivity"
+            android:label="@string/title_activity_practice_mode" >
+        </activity>
+        <activity
+            android:name="com.example.lunchtime.AdminSettingsActivity"
+            android:label="@string/title_activity_admin_settings" >
+        </activity>
+        <activity
+            android:name="com.example.lunchtime.UserManagementActivity"
+            android:label="@string/title_activity_user_management" >
+        </activity>
+        <activity
+            android:name="com.example.lunchtime.UserDataActivity"
+            android:label="@string/title_activity_user_data" >
+        </activity>
+        <activity
+            android:name="com.example.lunchtime.UserTimeActivity"
+            android:label="@string/title_activity_user_time" >
+        </activity>
+        <activity
+            android:name="com.example.lunchtime.UserSurveyActivity"
+            android:label="@string/title_activity_user_survey" >
+        </activity>
+        <activity
+            android:name="com.example.lunchtime.LevelCompleted"
+            android:label="Reward Section" >
+        </activity>
+        <activity android:name="TestDataBase"></activity>
+        <activity android:name="ProgressChart"></activity>
+        <activity android:name="WolfAnimation"></activity>
+        <activity android:name="ZoomActivity"></activity>
+    </application>
+
+	<uses-permission android:name="android.permission.VIBRATE"/> 
+</manifest>

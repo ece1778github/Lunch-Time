@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<TextView
+		android:id="@+id/question_number"
+    	android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="15sp"
+		android:background="@drawable/textview_outline"
+		android:gravity="center"
+        android:layout_weight="1" />
+	<TextView
+		android:id="@+id/question_correct"
+    	android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/textview_outline"
+		android:textSize="15sp"
+		android:gravity="center"
+        android:layout_weight="1" />
+	<TextView
+		android:id="@+id/question_time"
+    	android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/textview_outline"
+		android:textSize="15sp"
+		android:gravity="center"
+        android:layout_weight="1" />
+	<TextView
+		android:id="@+id/question_mood"
+    	android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/textview_outline"
+		android:textSize="15sp"
+		android:gravity="center"
+        android:layout_weight="1" />
+
+</LinearLayout>

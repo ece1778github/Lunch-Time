@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/progresschart"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="152dip"
+        >
+
+        <ImageView
+            android:id="@+id/star_pc1"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc2"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc3"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc4"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc5"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="227dip"
+       >
+
+        <ImageView
+            android:id="@+id/star_pc6"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc7"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc8"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc9"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc10"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="304dip"
+       >
+
+        <ImageView
+            android:id="@+id/star_pc11"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc12"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc13"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc14"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc15"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="380dip">
+
+        <ImageView
+            android:id="@+id/star_pc16"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc17"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc18"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc19"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc20"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="455dip" >
+
+        <ImageView
+            android:id="@+id/star_pc21"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc22"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc23"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc24"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+
+        <ImageView
+            android:id="@+id/star_pc25"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_outline" />
+    </LinearLayout>
+
+    <com.example.buttonanimation.MyTextView
+        android:id="@+id/progresschart_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="60dp"
+        android:text="text"
+        android:textSize="18sp" />
+
+</RelativeLayout>
